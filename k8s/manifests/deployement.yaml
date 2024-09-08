@@ -12,10 +12,10 @@ spec:
   template:
     metadata:
       labels:
-        app: go-app-web
+        app: go-web-app
     spec:
       containers:
-      - name: go-app-web
-        image: hemanthreddy00992/go_web_app_devopsified:v1
+      - name: go-web-app
+        image: hemanthreddy00992/go-web-app:v2
         ports:
         - containerPort: 8080
